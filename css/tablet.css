@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    
+        .customers-list {
+            column-gap: 24px;
+        }
+    
+        .customers-list-item {
+            width: 168px;
+            height: 88px;
+        }
+
+        .customers-icon {
+            width: 104px;
+        }
+        .about-team {
+            padding-bottom: 104px;
+        }
+
+                .team-list {
+                    row-gap: 64px;
+                    column-gap: 24px;
+                    justify-content: center; 
+                }
+}

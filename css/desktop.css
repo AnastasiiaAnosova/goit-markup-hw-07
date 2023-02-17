@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
+    .specialization-company {
+        display: block;
+        padding-bottom: 120px;
+    }
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    
+    .customers-list {
+        gap: 24px;
+    }
+
+    .about-team {
+        padding: 120px 0;
+    }
+
+        .team-list {
+            gap: 24px;
+            flex-basis: calc((100% - 72) / 4);
+        }
+
+
+}
