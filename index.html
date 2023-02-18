@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- _______________HEADER________________ -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
@@ -54,22 +54,59 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-header-open-btn btn-cursor">
+          <svg class="menu-header-open-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-humburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu-header">
+        <div class="mob-menu-header-container">
+          <div class="mob-top">
+            <button
+              type="button"
+              class="modal-close-btn btn-cursor"
+              data-modal-close
+            >
+              <svg class="modal-close-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-header-list list">
+              <li class="mob-menu-header-item">
+                <a
+                  class="mob-menu-header-link current-page link"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-header-item">
+                <a class="mob-menu-header-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-header-item">
+                <a class="mob-menu-header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-bottom"></div>
+        </div>
+      </div>
+    </header>
     <!-- _______________MAIN________________ -->
     <main>
       <!-- _______________HERO________________ -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="hero-btn btn-cursor" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <!-- _______________ABOUT_COMPANY_______________ -->
-      <!-- <section class="description-company">
-        
+      <section class="description-company">
         <div class="container">
           <h2 class="visually-hidden">About Company</h2>
           <ul class="about-company list">
@@ -123,7 +160,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- _______________DOING________________ -->
       <section class="specialization-company">
         <div class="container">
@@ -166,8 +203,13 @@
           <ul class="team-list list">
             <li class="team-list-item">
               <img
+                srcset="
+                  ./images/employee/desktop/mark-guerrero.jpg    1x,
+                  ./images/employee/desktop/mark-guerrero-2x.jpg 2x,
+                  ./images/employee/desktop/mark-guerrero-3x.jpg 3x
+                "
                 class="team-img"
-                src="./images/employee/mark-guerrero.jpg"
+                src="./images/employee/desktop/mark-guerrero.jpg"
                 alt="mark guerrero"
                 width="264"
                 height="260"
@@ -209,8 +251,13 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="
+                  ./images/employee/desktop/tom-ford.jpg    1x,
+                  ./images/employee/desktop/tom-ford-2x.jpg 2x,
+                  ./images/employee/desktop/tom-ford-3x.jpg 3x
+                "
                 class="team-img"
-                src="./images/employee/tom-ford.jpg"
+                src="./images/employee/desktop/tom-ford.jpg"
                 alt="tom ford"
                 width="264"
                 height="260"
@@ -252,8 +299,13 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="
+                  ./images/employee/desktop/camila-garcia.jpg    1x,
+                  ./images/employee/desktop/camila-garcia-2x.jpg 2x,
+                  ./images/employee/desktop/camila-garcia-3x.jpg 3x
+                "
                 class="team-img"
-                src="./images/employee/camila-garcia.jpg"
+                src="./images/employee/desktop/camila-garcia.jpg"
                 alt="camila garcia"
                 width="264"
                 height="260"
@@ -295,8 +347,13 @@
             </li>
             <li class="team-list-item">
               <img
+                srcset="
+                  ./images/employee/desktop/daniel-wilson.jpg    1x,
+                  ./images/employee/desktop/daniel-wilson-2x.jpg 2x,
+                  ./images/employee/desktop/daniel-wilson-3x.jpg 3x
+                "
                 class="team-img"
-                src="./images/employee/daniel-wilson.jpg"
+                src="./images/employee/desktop/daniel-wilson.jpg"
                 alt="daniel wilson"
                 width="264"
                 height="260"
@@ -390,7 +447,7 @@
       </section>
     </main>
     <!-- _______________FOOTER________________ -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-container-logo">
           <a class="logo logo-footer link" href="./index.html"
@@ -447,7 +504,7 @@
               title="kkkkkkkk1234@gmail.com"
             />
 
-            <button type="submit" class="footer-form-submit btn-cursor">
+            <button type="submit" class="footer-form-submit-btn btn-cursor">
               Subscribe
               <svg class="footer-form-icon-sub" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
@@ -456,7 +513,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">

@@ -3,25 +3,107 @@
         width: 768px;
     }
     
-        .customers-list {
-            column-gap: 24px;
-        }
+    .customers-list {
+        column-gap: 24px;
+    }
     
-        .customers-list-item {
-            width: 168px;
-            height: 88px;
-        }
+    .customers-list-item {
+        width: 168px;
+        height: 88px;
+    }
 
-        .customers-icon {
-            width: 104px;
-        }
-        .about-team {
-            padding-bottom: 104px;
-        }
+    .customers-icon {
+        width: 104px;
+    }
 
-                .team-list {
-                    row-gap: 64px;
-                    column-gap: 24px;
-                    justify-content: center; 
-                }
+    .about-team > .container {
+        width: 552px;
+    }
+
+    .about-team {
+        padding-bottom: 104px;
+    }
+
+    .team-list {
+        row-gap: 64px;
+        column-gap: 24px;
+    }
+    .team-list-item {
+        width: calc(( 100% - 24px ) / 2 );
+    } 
+    
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/people-office-tablet.jpg");
+        padding-top: 112px;
+        padding-bottom: 108px;
+    } 
+    
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/people-office-tablet-2x.jpg");
+        }
+    } 
+    
+    .menu-header {
+        display: flex;
+        align-items: center;
+    } 
+    
+    .contact-list {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    } 
+    
+    .menu-header-open-btn {
+        display: none;
+    } 
+
+    .hero-text {
+        max-width: 500px;
+        margin-bottom: 40px;
+        font-size: 56px;
+        line-height: 1.07;
+    } 
+    
+    .about-company {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+    } 
+    
+    .about-company-item {
+        flex-basis: calc(( 100% - 24px ) / 2 );
+    }
+    .about-company-title {
+        text-align: start;
+    } 
+    
+    .footer-container {
+        max-width: 574px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .footer-container-logo {
+        display: block;
+    }
+    
+    .footer-container-social {
+        margin-left: 72px;
+        margin-bottom: 102px;
+    }
+
+    .text-footer {
+        text-align: start;
+    } 
+    
+    .footer-form-input {
+        width: 264px;
+    }
 }
