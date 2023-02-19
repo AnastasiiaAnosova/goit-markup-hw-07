@@ -165,6 +165,26 @@ img {
     border: none;
 }
 
+.menu-header-close-btn{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    /* transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), transition, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.menu-header-close-btn-icon{
+    fill: #000000;
+}
+
 .mob-menu-header {
     position: fixed;
     top: 0;
@@ -911,7 +931,7 @@ img {
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), transition, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), transition, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
