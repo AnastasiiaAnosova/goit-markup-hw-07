@@ -1,7 +1,16 @@
 @media screen and (min-width: 1200px){
     .container {
         width: 1200px;
+    } 
+
+    .header {
+        padding-bottom: 28px;
+    } 
+
+    .menu-link.current-page::after {
+        top: 49px;
     }
+
     .specialization-company {
         display: block;
         padding-bottom: 120px;
@@ -101,5 +110,11 @@
     .footer-form-sub {
         flex-direction: row;
         gap: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .contact-list{
+        display: inline;
     }
 }

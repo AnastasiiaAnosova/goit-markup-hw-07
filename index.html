@@ -54,16 +54,24 @@
             >
           </li>
         </ul>
-        <button type="button" class="menu-header-open-btn btn-cursor">
+        <button
+          type="button"
+          class="menu-header-open-btn btn-cursor"
+          data-menu-open
+        >
           <svg class="menu-header-open-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-humburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu-header">
+      <div class="mob-menu-header" data-menu>
         <div class="mob-menu-header-container">
           <div class="mob-top">
-            <button type="button" class="menu-header-close-btn btn-cursor">
+            <button
+              type="button"
+              class="menu-header-close-btn btn-cursor"
+              data-menu-close
+            >
               <svg class="menu-header-close-btn-icon" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
@@ -664,7 +672,8 @@
         </form>
       </div>
     </div>
+
+    <script src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
-    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
