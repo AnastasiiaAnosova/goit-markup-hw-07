@@ -7,6 +7,12 @@
         padding-bottom: 28px;
     } 
 
+    .contact-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
     .menu-link.current-page::after {
         top: 49px;
     }
@@ -41,7 +47,7 @@
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/people-office.jpg");
         padding: 188px 0;
-        /* width: 1440px; */
+         width: 1440px;
     }
     
     @media (min-device-pixel-ratio: 2),
@@ -110,11 +116,5 @@
     .footer-form-sub {
         flex-direction: row;
         gap: 24px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .contact-list{
-        display: inline;
     }
 }
